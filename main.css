@@ -1,5 +1,23 @@
+* {margin:0;padding:0}
 header{background-color: #FFFFFF;}
 nav{background-color: #292929;}
 footer{background-color: #3C3C3C;}
 main{background-color: #F1F1F1;}
 div, section{background-color: #FFFFFF;}
+
+body {width:800px}
+.imageBanner {width:400px;height:100px}
+header {height:100px}
+footer {height:60px}
+nav {height:38px}
+
+nav, main, footer {margin-top:5px}
+section {margin:5px}
+body {margin:auto}
+p {margin-bottom:15px}
+h2 {margin-bottom:20px}
+
+header, section, footer, main {padding:5px}
+
+h1 {float:right}
+header, nav, main, footer {display:block;clear:both}
